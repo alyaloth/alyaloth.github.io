@@ -58,6 +58,7 @@ function writePage() {
   let partExtension = ""; //part extension to add to the url if the image is split into multiple parts
   let altText = ""; //variable for alt text
   let path = (folder != "" ? folder + "/" : "") + image + pg + partExtension + "." + ext; //path for your comics made out of variables strung together
+  console.log("path - " + path);
   let page = ``;
 
   if (pgData.length < pg) { //if the array is blank or not long enough to have an entry for this page

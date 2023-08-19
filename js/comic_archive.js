@@ -24,6 +24,8 @@ writeArchive("chapter3", 9, 12, -1, false,false);
 
 writeArchive("chapter4", 13, 15, -1, false,false);
 
+writeArchive("prequel", 1, 9, -1, false,false);
+
 //below this point is stuff you don't really need to pay attention to if you're not super familiar with JS 
 
 function writeArchive(divClass, min, max, reverseOrder, useThumbs,useNums) {
