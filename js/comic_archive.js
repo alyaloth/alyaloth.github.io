@@ -10,21 +10,23 @@ writeArchive(
     1, //earliest page to list
     maxpg, //latest page to list. setting to maxpg will make it automatically update with the latest page
     -1, //if set to 0, list is displayed "latest first". if set to -1, list is displayed chronologically
-    true, //if set to true, each comic will have its own thumbnail image next to it. if a comic doesn't have its own thumbnail, it'll be set to the default thumbnail.
-    true //if set to true, each comic will have a display number
+    false, //if set to true, each comic will have its own thumbnail image next to it. if a comic doesn't have its own thumbnail, it'll be set to the default thumbnail.
+    false //if set to true, each comic will have a display number
 );
 
-writeArchive("lastfirst", 1, maxpg, 0, true,true);
+//writeArchive("lastfirst", 1, maxpg, 0, true,true);
 
-writeArchive("chapter1",1,3,-1,false,true) //writeArchive is for listing a RANGE of pages, take advantage of this by using headers to divide them into chapters or by month
+//writeArchive("chapter1",1,3,-1,false,true) //writeArchive is for listing a RANGE of pages, take advantage of this by using headers to divide them into chapters or by month
 
-writeArchive("chapter2", 4, 9, -1, false,false);
+//writeArchive("chapter2", 4, 9, -1, false,false);
 
-writeArchive("chapter3", 9, 12, -1, false,false);
+//writeArchive("chapter3", 9, 12, -1, false,false);
 
-writeArchive("chapter4", 13, 15, -1, false,false);
+//writeArchive("chapter4", 13, 15, -1, false,false);
 
-writeArchive("prequel", 1, 9, -1, false,false);
+writeArchive("prequel", 1, 16, -1, false,false);
+
+writeArchive("mainstory", 17, 24, -1, false,false);
 
 //below this point is stuff you don't really need to pay attention to if you're not super familiar with JS 
 
