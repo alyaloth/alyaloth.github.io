@@ -16,14 +16,6 @@ writeArchive(
 
 //writeArchive("lastfirst", 1, maxpg, 0, true,true);
 
-//writeArchive("chapter1",1,3,-1,false,true) //writeArchive is for listing a RANGE of pages, take advantage of this by using headers to divide them into chapters or by month
-
-//writeArchive("chapter2", 4, 9, -1, false,false);
-
-//writeArchive("chapter3", 9, 12, -1, false,false);
-
-//writeArchive("chapter4", 13, 15, -1, false,false);
-
 writeArchive("prequel", 1, 16, -1, false,false);
 
 writeArchive("mainstory", 17, 24, -1, false,false);
